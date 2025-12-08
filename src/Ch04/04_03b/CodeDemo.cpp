@@ -10,6 +10,9 @@ int main(){
 
     std::cout << "Initial high score: " << *scorePtr << std::endl;  // Display the first high score using pointer
 
+    std::cout << "Second high score: " << *(scorePtr + 1) << std::endl;
+    std::cout << "Initial high score: " << scorePtr[2] << std::endl;
+
     std::cout << std::endl << std::endl;
     return 0;
 }
